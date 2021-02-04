@@ -1,0 +1,207 @@
+/* PALETA
+
+Ford: #002058
+claro: #cdd0d2
+intermedio: #1b6ca2
+semiclaro: #6fa0be
+
+*/
+
+
+body {
+    background-color: #1d2d50;
+    font-family: 'Oswald', sans-serif;
+    color: #fcdab7;
+}
+.border{
+    border-radius: 5px;
+    border: none;
+}
+
+
+/* NAV */
+
+
+
+.logo-custom{
+    box-shadow: black 2px 2px;
+    width: 250px;
+    height: 200px;
+}
+
+.navbar-custom {
+   background-color: #1e5f74;
+}
+/*HOVER*/
+a{
+    transition: 200ms;
+}
+.navbar-link-custom:hover {
+    color: #f05454;
+    border-bottom: 3px #f05454 solid;
+}
+
+/*NAV*/
+
+.navbar-link-custom {
+    font-size: 26px;
+    font-weight: 600;
+    color: #fcdab7;
+    border-bottom: 3px solid transparent;
+}
+
+
+/*PRESENTACIÓN*/
+
+.inicio {
+    
+    height: 100vh;
+    padding-top: 50px;
+    background: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fcdab7;
+    text-shadow: black 1px 1px;
+}
+.h1-custom{
+    font-weight: 600;
+    
+}
+.button-custom {
+    color: #fcdab7;
+    border: none !important;
+    transition: 200ms;
+    background-color: #1e5f74;
+}
+
+.button-custom:hover {
+    color: #f05454;
+    background-color: #1e5f74;
+    
+}
+
+
+/*PRESENTACION*/
+
+
+
+/*NOSOTROS*/
+
+.h1-carousel-custom {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.carousel-custom{
+    width: 80%;
+    height: 50%;
+}
+.img-carousel-custom-filtro {
+    filter: saturate(200%);
+}
+.text-custom{
+    width: 70%;
+    margin: 3em;
+}
+.slide {
+    margin: auto !important;
+}
+.slide-img {
+    height: 500px;
+    
+}
+.indi {
+    color: blue !important;
+}
+
+
+@media (max-width: 458px) {
+    .select-custom{
+        height: auto;
+    }
+}
+
+
+/*historia*/
+.historia-custom{
+    margin-top: 15vh !important;
+}
+.img-historia-custom {
+    filter: saturate(200%);
+}
+/*acordeon*/
+.acordeon-custom{
+    margin-top: 15vh !important;
+}
+#i-logo-custom{
+    width: 150px;
+    height: 150px;
+
+}
+.img-as-custom{
+    margin: auto;
+    width: 80%;
+    height: 50vh;
+}
+.callto-custom{
+    color: #fcdab7;
+    background-color: #1e5f74;
+    border: none;
+    text-shadow: black 1px 1px;
+}
+.callto-custom:hover {
+    color: #f05454;
+    background-color: #1e5f74;
+    
+}
+
+/*hr*/
+hr.style1{
+    border-top: 1px solid #8c8b8b;
+    width: 84%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*acción solidaria*/
+
+.li-item-custom{
+    background-color: inherit;
+}
+
+/*contacto*/
+
+.contact-custom {
+    margin-top: 15vh !important;
+    margin-bottom: 10vh !important;
+}
+.row-custom {
+    border: none;    
+}
+.img-contacto-custom{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 200ms;
+}
+.rh{
+    height: 80px;
+    background-color: #1e5f74;
+    border: none;
+}
+
+.col-custom-arriba{
+    background-color: #1e5f74;
+    border-bottom: 3px solid #fcdab7;
+    
+}
+.col-custom-abajo{
+    background-color: #1e5f74;
+    border-bottom: 3px solid #fcdab7;
+}
+.a-contact-custom {
+    background-color: #1e5f74;
+}
+.img-contacto-custom:hover {
+    background-color: #fcdab7;
+}
